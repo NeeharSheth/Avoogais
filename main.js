@@ -6,8 +6,6 @@ block_image_height = 30;
 player_x = 23;
 player_y = 100;
 
-var face = ["hulk_face.png", "ironman_face.png", "spiderman_face.png", "thor_face.png"]
-
 function player_update() {
     fabric.Image.fromURL("player.png", function (Img) {
         player_obj = Img;
